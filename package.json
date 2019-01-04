@@ -1,0 +1,22 @@
+{
+  "name": "com.ezartech.demo.ezarfacedetect",
+  "version": "2.0.1",
+  "displayName": "ezAR FaceDetector",
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-ezar-facedetector": {},
+      "cordova-plugin-ezar-snapshot": {},
+      "cordova-plugin-ezar-videooverlay": {},
+      "com.ezartech.ezar.snapshot": {}
+    }
+  },
+  "dependencies": {
+    "cordova-android": "^7.1.0",
+    "cordova-plugin-ezar-facedetector": "git+https://github.com/kas84/cordova-plugin-ezar-facedetector.git",
+    "cordova-plugin-ezar-snapshot": "git+https://github.com/kas84/cordova-plugin-ezar-snapshot.git",
+    "cordova-plugin-ezar-videooverlay": "git+https://github.com/kas84/cordova-plugin-ezar-videooverlay.git"
+  }
+}

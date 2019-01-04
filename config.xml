@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.ezartech.demo.ezarfacedetect" version="2.0.0" 
+<widget id="com.ezartech.demo.ezarfacedetect" version="2.0.1" 
     xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>ezAR FaceDetector</name>
     <description>
@@ -9,7 +9,7 @@
         @wayne_parrott, ezAR Team
     </author>
     <content src="index.html" />
-    
+
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -19,10 +19,10 @@
         <allow-intent href="itms-apps:*" />
     </platform>
 
-    <plugin name="cordova-plugin-whitelist" spec="1" />
-    <plugin name="cordova-plugin-ezar-facedetector" spec="^1.0.0" />
-    <plugin name="cordova-plugin-ezar-snapshot" spec="^1.0.0"/>
-    <plugin name="cordova-plugin-ezar-videooverlay" spec="^1.0.0"/> 
+    <plugin name="cordova-plugin-ezar-facedetector" spec="git+https://github.com/kas84/cordova-plugin-ezar-facedetector.git" />
+    <plugin name="cordova-plugin-ezar-videooverlay" spec="git+https://github.com/kas84/cordova-plugin-ezar-videooverlay.git" />
+    <plugin name="cordova-plugin-ezar-snapshot" spec="git+https://github.com/kas84/cordova-plugin-ezar-snapshot.git" />
+
 
     <!--uncomment elements below to use alternative webviews-->
     <!--<plugin name="cordova-plugin-crosswalk-webview" />-->
